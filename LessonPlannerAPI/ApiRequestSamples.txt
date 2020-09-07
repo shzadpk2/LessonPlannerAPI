@@ -1,0 +1,76 @@
+
+
+Domain:  http://virtualschool.hexaplay.net
+=====================================================USERS====================================================================
+========POST=========
+1- /api/user/signup              ////In-Development
+
+{
+            "UserType": "Teacher",
+            "FirstName": "Shahzad",
+            "LastName": "Hassan",
+            "Gender": "Male",
+            "DOB": "2019-01-06T17:16:40",
+            "Phone": "111222333",
+            "Email": "test@test.com",
+            "Country": "Pakistan",
+            "City": "Lahore",
+            "Address": "Test Address",
+            "CreatedBy": 1
+
+}
+
+2- /api/user/GetAllUsers
+
+3- /api/user/GetUserByUserID?userID=1
+
+4- /api/user/GetUserByUserEmail?email=test@test.com
+
+=====================================================LESSON PLANNER====================================================================
+
+========GET=========
+
+
+5- /api/lessonplanner/GetAllLessonPlanners
+
+6- /api/lessonplanner/GetAllLessonPlannersByGradeIDandSubjectID?gradeID=1&subjectID=1
+
+7- /api/lessonplanner/GetAllGrades
+
+8- /api/lessonplanner/GetAllSubjects
+
+9- /api/lessonplanner/GetAllSubjectsByGradeID?gradeID=1
+
+10- /api/lessonplanner/GetAllSubTopicByMainTopicID?mainTopicID=4
+
+11- /api/lessonplanner/GetAllMovies
+
+12- /api/lessonplanner/GetAllDocumentaries
+
+13- /api/lessonplanner/GetAllGames
+
+14- /api/lessonplanner/GetAllBooks
+
+===================================================QuizMaker======================================================================
+
+========GET=========
+
+15- /api/quizmaker/GetAllQuizMakers
+
+16- /api/quizmaker/GetQuizMakerTopicNumberDetail?gradeID=1&subjectID=1
+
+17- /api/quizmaker/GetAllQuizMakersByMainTopicID?mainTopicID=9
+
+18- /api/quizmaker/GetAllQuizMakersBySubTopicID?subTopicID=4
+
+19- /api/quizmaker/GetMaxQuixNumber?gradeID=1&20subjectID=1&topicNumber=kgm01a
+
+20- /api/quizmaker/GetAllTrueFalseQuestionsByQuizMakerID?quizMakerID=1
+
+21- /api/quizmaker/GetAllMultipleQuestionsByQuizMakerID?quizMakerID=1
+
+22- /api/quizmaker/GetAllFillBlankQuestionsByQuizMakerID?quizMakerID=1
+
+
+
+
